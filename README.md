@@ -1,1 +1,1 @@
-# LearnToCode
+This is repository for learning programing
