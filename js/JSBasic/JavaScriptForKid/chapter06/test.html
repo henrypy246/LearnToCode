@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My first proper HTML page</title>
+	</head>
+	<body>
+		<h1>Hello world!</h1>
+		<p>My first web page.</p>
+		Enter yourname: <input type="text" id="name"><button onclick="checkName()">Try It</button>
+		<script>
+			function checkName() {
+				// body...
+				var name = document.getElementById("name");
+				document.write("Hello "+name+"\n");
+				if( name.length > 7){
+					document.write("Wow you really have the name so long.\n");
+				}else{
+					document.write("you don't have a long name!");
+				}
+			}
+			
+		</script>
+	</body>
+</html>
